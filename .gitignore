@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .env
+# Ignore everything except Employee_Turnover
+*
+
+!.gitignore
+!Employee_Turnover/
+!Employee_Turnover/**
